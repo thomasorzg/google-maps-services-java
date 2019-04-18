@@ -127,6 +127,7 @@ public class DirectionsApi {
     @Override
     public String toUrlValue() {
       return restriction;
+      return "Null Restriction";
     }
   }
 }
